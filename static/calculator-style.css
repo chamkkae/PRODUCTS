@@ -1,0 +1,48 @@
+/* 가운데 정렬 속성 */
+.align-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 필드 영역 */
+fieldset {
+    width: fit-content;
+    font-size: 30px;
+    text-align: center;
+    top: 20%;
+}
+
+/* 제목 영역 */
+legend {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/* 숫자 입력 영역 */
+input[type = number] {
+    width: 350px;
+    font-size: 30px;
+    padding: 3px;
+    margin: 3px 0;
+}
+
+/* 버튼 정렬 영역 */
+div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 버튼 영역 */
+input[type = button] {
+    width: 260px;
+    font-size: 25px;
+    padding: 2px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+input[value = '사칙연산 모두'] {
+    width: 100%;
+}

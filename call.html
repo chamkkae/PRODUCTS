@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Phone Call</title>
+        <link rel="shortcut icon" href="./static/images/call-favicon.ico"/>
+        <link rel="icon" href="./static/images/call-favicon.ico"/>
+        <link rel="stylesheet" href="./static/call-style.css"/>
+        <script src="https://kit.fontawesome.com/68d1bb10c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class='phone'>
+            <div id='header' class='box'>연락처</div>
+            <div id='numbers' class='box'><!-- 연락처 화면 -->
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class='userIcon'><div class='circle'>여</div></td>
+                            <td class='userName'>여사친</td>
+                            <td class='callBtn-box'>
+                                <i class="fas fa-phone-square-alt callBtn"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='userIcon'><div class='circle'>전</div></td>
+                            <td class='userName'>전썸녀</td>
+                            <td class='callBtn-box'>
+                                <i class="fas fa-phone-square-alt callBtn"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='userIcon'><div class='circle'>전</div></td>
+                            <td class='userName'>전여친</td>
+                            <td class='callBtn-box'>
+                                <i class="fas fa-phone-square-alt callBtn"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='userIcon'><div class='circle'>전</div></td>
+                            <td class='userName'>전전썸녀</td>
+                            <td class='callBtn-box'>
+                                <i class="fas fa-phone-square-alt callBtn"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='userIcon'><div class='circle'>전</div></td>
+                            <td class='userName'>전전여친</td>
+                            <td class='callBtn-box'>
+                                <i class="fas fa-phone-square-alt callBtn"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='userIcon'><div class='circle'>첫</div></td>
+                            <td class='userName'>첫사랑</td>
+                            <td class='callBtn-box'>
+                                <i class="fas fa-phone-square-alt callBtn"></i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id='calling' class='box'><!-- 연락 중 화면-->
+                <div class='userBox'></div>
+                <div class='userBox'></div>
+                <div id='callBox'>
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div id='endBtn-box'>
+                    <div id='endBtn' class='circle'>
+                        <img src="https://img.icons8.com/ios-filled/40/ffffff/end-call.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./static/call-script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+/* 웹폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+/* 배경 이미지 */
+body {
+    background: url(./images/display-background.jpeg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    font-size: 16px;
+    position: relative;
+}
+
+/* 가운데 정렬 속성 */
+.align-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 글자 색깔 속성 */
+.color-blue {
+    color: #4285F4;
+}
+
+.color-red {
+    color: #EA4335;
+}
+
+.color-yellow {
+    color: #FBBC05;
+}
+
+.color-green {
+    color: #34A853;
+}
+
+/* 제목 영역 */
+#title-box {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 5em;
+    top: 70px;
+}
+
+/* 닉네임 입력 영역 */
+#name-box {
+    width: 300px;
+    font-size: 2em;
+    text-align: center;
+    background: #E7fAEE;
+    border: 2px solid #6AA381;
+    top: 285px;
+    padding: 0.5em;
+    outline: none;
+}
+
+/* 전광판 영역 */
+#display-box {
+    width: 600px;
+    height: 200px;
+    font-size: 8em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    color: purple;
+    background: #F1F9FC;
+    border: 3px solid #A4CFE0;
+    top: 220px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: none;
+}
+
+/* 버튼 영역 */
+input[type="button"] {
+    width: 240px;
+    font-size: 3em;
+    text-align: center;
+    background: #F8E1E8;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="button"]:hover {
+    background: #F5C4D3;
+}
+
+input:nth-last-of-type(2) {
+    top: 470px;
+}
+
+input:last-of-type {
+    top: 550px;
+    display: none;
+}

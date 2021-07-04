@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Console Calculator</title>
+        <link rel="shortcut icon" href="./static/images/calculator-favicon.ico"/>
+        <link rel="icon" href="./static/images/calculator-favicon.ico"/>
+        <link rel="stylesheet" href="./static/calculator-style.css"/>
+    </head>
+    <body>
+        <form>
+            <fieldset class="align-center">
+                <legend>Console Calculator</legend>
+                첫 번째 수 : <input type="number" id="x"/><br/>
+                두 번째 수 : <input type="number" id="y"/>
+                <div>
+                    <input type="button" value="더하기" onclick="Push(1)"/>
+                    <input type="button" value="빼기" onclick="Push(2)"/>
+                </div>
+                <div>
+                    <input type="button" value="곱하기" onclick="Push(3)"/>
+                    <input type="button" value="나누기" onclick="Push(4)"/>
+                </div>
+                <input type="button" value="사칙연산 모두" onclick="Push(5)"/>
+            </fieldset>
+        </form>
+        <script src="./static/calculator-script.js"></script>
+    </body>
+</html>
